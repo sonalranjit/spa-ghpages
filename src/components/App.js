@@ -10,13 +10,13 @@ import s from '../styles/app.style';
 export default function App() {
   return (
     <div style={s.root}>
-      <h1 style={s.title}>Single Page Apps for GitHub Pages</h1>
+      <h1 style={s.title}>Sonal Ranjit</h1>
       <Interactive
         as="a"
-        href="https://github.com/rafrex/spa-github-pages"
+        href="https://github.com/sonalranjit"
         style={s.repoLink}
         {...s.link}
-      >https://github.com/rafrex/spa-github-pages</Interactive>
+      >https://github.com/sonalranjit</Interactive>
 
       <nav style={s.breadcrumbs}>
         <Breadcrumbs />
@@ -31,13 +31,13 @@ export default function App() {
       <div style={s.creditLine}>
         <Interactive
           as="a"
-          href="http://www.rafaelpedicini.com"
+          href="http://sonalranjit.com"
           interactiveChild
           focus={{}}
           touchActive={{}}
           touchActiveTapOnly
         >
-          Code and concept by <span {...s.childLink}>Rafael Pedicini</span>
+          Sonal Ranjit <span {...s.childLink}>sonal.ranjit3@gmail.com</span>
         </Interactive>
       </div>
     </div>
