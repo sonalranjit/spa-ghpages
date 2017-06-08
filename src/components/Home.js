@@ -9,7 +9,7 @@ export default function Home() {
     <Interactive
       as="a"
       {...s.link}
-      href="https://github.com/rafrex/spa-github-pages#readme"
+      href="https://github.com/sonalranjit/"
     >{text}</Interactive>
   );
 
@@ -17,7 +17,7 @@ export default function Home() {
     <div>
       <p style={s.p}>
         Hi my name is Sonal Ranjit. I am a software developer, recently focused on
-        build Augmented Reality applications using the Unity Game Engine. 
+        build Augmented Reality applications using the Unity Game Engine.
       </p>
     </div>
   );
